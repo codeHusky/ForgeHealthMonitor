@@ -12,6 +12,7 @@
     "ThreadingDetectorMixin",
     "MixinServerGamePacketListenerImpl",
     "MixinLevel",
+    "MixinEntityTickList",
     "MixinServerChunkCache",
     "MixinServerHandshakePacketListenerImpl"
   ],

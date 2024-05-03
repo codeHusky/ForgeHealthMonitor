@@ -7,6 +7,8 @@ Features
 ---
 - Watches for hangs on the main server thread, and prints stack traces when the TPS drops too much for diagnostic purposes
   - Reports lagspikes with stacktraces, allowing you to pinpoint laggy mods and assist mod devs in optimizations
+- Watches for high entity counts (>8000) and intervenes when theres an excessive amount of a certain entity type (>1500)
+  - Removes these excess entities just before they're about to be ticked, which prevents server deadlocks
 - Translates "obfuscated" Minecraft names (`net.minecraft.class_3435_`, etc) to names useful to Forge developers
   - Makes it easier to diagnose crashes, errors, and lag at a glance
 - Adds `prevent-moving-into-unloaded-chunks` functionality from Paper to avoid massive server lag when generating terrain
