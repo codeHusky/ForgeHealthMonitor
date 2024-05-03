@@ -1,4 +1,4 @@
-Forge Health Monitor
+Health Monitor (Forge)
 ---
 
 Adds a number of helpful utilities for Forge server owners to make diagnosing issues and general server administration easier.
