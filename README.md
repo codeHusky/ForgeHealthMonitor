@@ -17,7 +17,7 @@ Features
 
 License
 ---
-FHM is licensed under LGPL v3.0. Please review the terms of the license [here](https://github.com/codeHusky/ForgeHealthMonitor/blob/master/LICENSE) if you have any concerns.
+Except where stated, all files in this repo are licensed under LGPL v3.0. Please review the terms of the license [here](https://github.com/codeHusky/ForgeHealthMonitor/blob/master/LICENSE) if you have any concerns.
 
 Some components of this software are under different licenses. Please review those licenses in the Credits section.
 
